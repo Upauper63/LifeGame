@@ -87,7 +87,7 @@ public class ButtonControllerScript : MonoBehaviour {
         {
             for (int j = 0; j < 15; j++)
             {
-                gameControllerScript.board[j, (int)positionZ] = 0;
+                gameControllerScript.board[j, i] = 0;
             }
         }
     }
